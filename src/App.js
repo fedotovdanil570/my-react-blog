@@ -72,7 +72,7 @@ export default App;
             </div>
             <div className="row shadow-sm">
               <div className="col">
-                <h1 className="text-center">My Blog</h1>
+                {/*<h1 className="text-center">My Blog</h1>*/}
                 <NewsTread />
               </div>
             </div>            
