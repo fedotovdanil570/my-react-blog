@@ -1,0 +1,33 @@
+.box{
+    /*box-model: border-box;*/
+    border: 5px solid transparent;
+    background-clip:padding-box;
+  }
+
+  .content{
+      padding: 10px;
+  }
+
+.header{
+    display: flexbox;
+}
+
+.header-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+  .user-icon{
+    /*padding: 10px;*/
+    /*width: 30px;
+    height: 25px;
+    right: -99%;
+    bottom: 20%;
+    position: relative;*/
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+  }
+
+  
